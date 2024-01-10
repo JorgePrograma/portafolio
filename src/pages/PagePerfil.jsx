@@ -24,7 +24,7 @@ const PagePerfil = () => {
       }, 2000);
     });
 
-    const urlPDF = "/pdf/Curriculum_Jorge_Martelo.pdf";
+    const urlPDF = "/pdf/CV_Jorge_Martelo_Desarrollador.pdf";
     window.location.href = urlPDF;
   };
 
