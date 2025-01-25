@@ -6,21 +6,50 @@ export class Perfil {
   static CORREO = "jemartelo07@gmail.com";
   static TITULO_REDES="Sigueme en mis redes"
 }
-
 export class Experiencia {
   static TITULO = "Experiencia";
-  static PERIODO = "2022 - 2023";
-  static CARGO = "Desarrollador Full Stack"
-  static EMPRESA = "Freelance";
-  static DESCRIPCION =
-    "Durante este periodo, he dirigido mi enfoque hacia proyectos personales, desempeñando el rol de desarrollador full stack. Este entorno ha sido esencial para fortalecer mis habilidades en tecnologías avanzadas, permitiéndome abordar desafíos complejos en el desarrollo tanto del frontend como del backend.";
+  static EXPERIENCIAS = [
+    {
+      PERIODO: "Julio 2024 - Enero 2025",
+      CARGO: "Desarrollador Full Stack (Senior)",
+      EMPRESA: "Parking International",
+      DESCRIPCION: "Lideré un equipo en la creación de un sistema de estacionamientos, desarrollando aplicaciones en Kotlin, Flutter y React Native. Optimicé bases de datos y implementé prácticas ágiles para mejorar la eficiencia del equipo."
+    },
+    {
+      PERIODO: "Febrero 2024 - Mayo 2024",
+      CARGO: "Desarrollador Full Stack",
+      EMPRESA: "No Country Simulation (Freelance)",
+      DESCRIPCION: "Desarrollé una aplicación móvil integral para administración de restaurantes, utilizando Laravel para el backend y Flutter para el frontend, optimizando significativamente los procesos operativos."
+    },
+    {
+      PERIODO: "Septiembre 2023 - Diciembre 2023",
+      CARGO: "Desarrollador de Aplicaciones Móviles",
+      EMPRESA: "Freelance",
+      DESCRIPCION: "Creé una aplicación en Kotlin para una distribuidora de agua, implementando un sistema de monitoreo en tiempo real con Arduino, logrando un 60% de mejora en la eficiencia operativa."
+    },
+    {
+      PERIODO: "Noviembre 2022 - Abril 2024",
+      CARGO: "Ingeniero de Sistemas",
+      EMPRESA: "Consorcio Mejoramiento Los Córdobas",
+      DESCRIPCION: "Administré bases de datos, desarrollé funcionalidades web y optimicé procesos empresariales, colaborando eficazmente en equipos multidisciplinarios para alcanzar los objetivos del proyecto."
+    }
+  ];
+  
 }
+
 
 export class AcercaDeMi {
   static TITULO = "Quién Soy";
   static DESCRIPCION =
-    "Soy un ingeniero de sistemas, apasionado por la tecnología y la resolución creativa de problemas. Busco nuevos retos que me impulsen a crecer tanto personal como profesionalmente. Mi enfoque se centra en el desarrollo de aplicaciones versátiles para la web y dispositivos móviles. Me encantaría enfrentar nuevos desafíos que me permitan seguir mejorando como desarrollador, abordándolos de manera positiva y eficiente.";
-  static MENSAJE = "Apasionado por la innovación, dedicado a crear experiencias digitales memorables.";
+"Desarrollador senior especializado en aplicaciones móviles multiplataforma, apasionado por crear soluciones innovadoras y de alto impacto. Enfocado en desarrollar productos mantenibles, escalables y de excelente rendimiento, priorizando la experiencia del usuario. Destaco por mi colaboración efectiva en equipos multidisciplinarios, trabajando estrechamente con clientes para transformar visiones en realidades tecnológicas, siempre comprometido con la excelencia técnica y la innovación en el desarrollo móvil."
+  static MENSAJE = [
+    "Adaptabilidad",
+    "Creatividad",
+    "Gestion del tiempo",
+    "Trabajo en equiopo",
+    "Atencion al detalle",
+    "Pensamiento critico",
+  ];
 }
 
 export class Educacion {
